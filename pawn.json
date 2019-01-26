@@ -1,0 +1,23 @@
+{
+    "user": "mrAlexZT",
+    "repo": "samp-plugin-mysql",
+    "resources": [
+        {
+            "name": "^samp-plugin-mysql-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/mysql.dll"]
+        },
+        {
+            "name": "^samp-plugin-mysql-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/mysql.so"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["mrAlexZT/samp-plugin-mysql"]
+    }
+}
